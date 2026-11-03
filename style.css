@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #005b77, #f701ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: linear-gradient(135deg, #1f5879, #4d175a);
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: #020202;
+  box-shadow: linear-gradient(135deg, #000000, #020202);
+  float: none;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #410934;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #4a90e2;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #053266;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #031a31;
+  box-shadow: 0 0 10px rgba(1, 26, 46, 0.7);
+  transform: translateY(-2px);
+}
+
+#result {
+  margin-top: 20px;
+  padding: 15px;
+  background: #fdfdfd;
+  border-radius: 6px;
+  text-align: center;
+  border-left: 5px solid #4a90e2;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 19px;
+  color: #474747;
+}
+
+.wh {
+  font-size: 13px;
+  color: #dad9d9;
+}
+
+#height {
+  border-width: 0px;
+}
+
+#weight {
+  border-width: 0px;
+}
+
+#footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #f3aaed;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-weight: bold;
+  
+}
